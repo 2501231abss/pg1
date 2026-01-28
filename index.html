@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" charset="UTF-8" type="text/javascript"></script>
+    <title>見た映画の記録・管理</title>
+</head>
+<body>
+    <div id="inputCard">
+        <h2>🎬見た映画の記録</h2>
+        <div class="row">
+            <input type="text" id="title" placeholder="映画のタイトルを入力">
+
+            <select id="evaluation">
+                <option value="1">★</option>
+                <option value="2">★★</option>
+                <option value="3">★★★</option>
+                <option value="4">★★★★</option>
+                <option value="5">★★★★★</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <textarea id="comment" placeholder="感想"></textarea>
+    
+            <button id="addBtn">追加</button>
+        </div>
+        <small>2501231安藤蒼真</small>
+    </div>
+
+    <div>
+        <ul id="list"></ul>
+    </div>
+</body>
+</html>

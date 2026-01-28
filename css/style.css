@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #f3f3f3;
+}
+
+#inputCard{
+    background: #ffffff;
+    width: 600px;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#inputCard h2{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.row{
+    margin-bottom: 10px;
+    gap: 10px;
+    display: flex;
+}
+
+input, select, textarea{
+    padding: 10px;
+    border: 1px solid #a6a5a5;
+    border-radius: 6px;
+    font-size: 16px;
+    resize: none;
+}
+
+#title, #comment{
+    flex: 1;
+}
+
+#comment{
+    height: 80px;
+}
+
+#addBtn{
+    background: #ff6b6b;
+    color: #ffffff;
+    height: 80px;
+    padding: 0px 16px;
+    border: none;
+    border-radius: 6px;
+}
+
+#list{
+    list-style: none;
+    padding: 0px;
+}
+
+#list li{
+    background: #ffffff;
+    width: 600px;
+    margin: 0px auto 16px;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+#list li{
+    position: relative;
+}
+
+#list li button{
+    background-color: #847ce1;
+    color: #ffffff;
+    position: absolute;
+    padding: 8px 14px;
+    font-size: 14px;
+    bottom: 16px;
+    right: 16px;
+    border: none;
+    border-radius: 20px;
+}
+
+.star{
+    color: #f4f014;
+    font-size: 20px;
+}
